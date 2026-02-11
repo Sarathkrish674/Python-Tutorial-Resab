@@ -1,0 +1,15 @@
+For the First time when we push
+
+1: git init
+2:git add .
+3:git commit -m "What we have done on the project today"
+4:git checkout -b sarath  (I created a new branch name sarath)
+5:git branch
+6:git remote add origin https://github.com/Sarathkrish674/Python-Tutorial-Resab.git (Where inside the reprositories there)
+7:git push -uf origin sarath
+
+For the Second time when we push.
+
+1:git add .
+2:git commit -m "What we have done on the project today"
+3:git push -uf origin sarath
