@@ -1,0 +1,99 @@
+2️⃣ Python Basics
+
+Python Syntax
+
+1.Simple and readable syntax
+(Python syntax is close to English language, so beginners can understand it easily.)
+
+2.Case-sensitive language
+(Python treats Name and name as different variables.)
+
+name = "Python"
+Name = "Django"
+print(name)
+print(Name)
+
+
+3.Indentation (Very Important)
+
+4.Python uses indentation instead of curly braces {}
+(Indentation defines blocks of code like loops, conditions, and functions.)
+
+❌ Wrong:
+
+if True:
+print("Hello")
+
+
+✅ Correct:
+
+if True:
+    print("Hello")
+
+
+(If indentation is wrong, Python throws an IndentationError.)
+
+
+
+5.Comments in Python
+
+a)-> Single-line comment
+
+# This is a comment
+
+
+(Used to explain code, Python ignores this line during execution.)
+
+b)-> Multi-line comment / Docstring 
+
+"""
+This is a
+multi-line comment
+
+"""
+
+(Used for documentation and explaining functions, classes, or modules.)
+
+
+6.Variables in Python
+
+a)->Variable
+(A variable is a name given to a memory location where data is stored.)
+
+age = 25
+name = "Adith"
+salary = 25000.50
+
+
+b)->Dynamic typing
+(Python automatically decides the data type based on the value.)
+
+x = 10      # int
+x = "Ten"   # str
+
+
+7.Constants in Python
+
+Python does not have real constants
+(By convention, we use CAPITAL letters to indicate constants.)
+
+# Standard constant definition
+PI = 3.14159
+MAX_SPEED = 120
+TIMEOUT_SECONDS = 30
+
+Constants in Python are variables intended to hold fixed values that do not change during program execution
+
+
+
+
+
+
+a = 3
+b = 67 
+
+c= a+b
+
+print(c)                      70
+
+print("The Out Put Is " {c})  The Out Put Is 70

@@ -1,0 +1,159 @@
+🔹 Data Types in Python (Data type defines what kind of value a variable holds.)
+
+1️⃣ int (Integer)
+
+Stores whole numbers (positive or negative)
+
+a = 10      10 is the value that we want to store in to the Variable a.
+b = -5
+
+
+Operations:
+
+print(a + b)                         5
+print(a * 2)                         20               
+print(a // 3)   # Floor division     3
+print(a / 3)    # division           3.3333333
+
+
+2️⃣ float
+
+Stores decimal numbers
+
+price = 99.99
+rate = 3.5
+
+
+(Used in calculations requiring precision.)
+
+3️⃣ bool (Boolean)
+
+Stores True or False values
+
+is_login = True
+is_admin = False
+
+
+(Used in conditions and decision making.)
+
+4️⃣ str (String)
+
+Used to store text
+
+language = "Python"     Python is the value and language is the variable that we want to store here.
+
+
+Common string operations:
+
+print(language.upper())   upper() ->This is a Build in function given by Python.
+print(language.lower())   lower() ->This is a Build in function given by Python.
+print(len(language))      (len(language)) ->len ->It is used to see the length if the variable.  6
+print(language.replace("Py", "My")) ->This is used to replace the name of the variable.
+
+
+Indexing:
+
+print(language[0])   # P     It is used to decide the position of the value. Left to right 0,1,2,3,4... Like this.
+print(language[-1])  # n     It is used to decide the position of the value. Right to left -1,0,1,2,3... Like this.
+
+
+Slicing:
+
+ P-0,Y-1,T-2,H-3,O-4,N-5
+
+print(language[0:4])   # Pyth   P-0,Y-1,T-2,H-3,O-4  Where in Slicing last number won't be taken thats why output is pyth not pytho .
+
+(Strings are immutable – they cannot be changed once created.)
+
+
+
+5️⃣ list
+
+Stores multiple values 
+
+Mutable (can be changed)
+
+numbers = [1, 2, 3, 4] ->This is the list. And also denoted by square bracket [].
+
+
+List functions:
+
+numbers.append(5)       # add at end
+numbers.insert(1, 10)   # add at index
+numbers.remove(3)       # remove value
+numbers.pop()           # remove last item
+numbers.sort()          # sort list
+numbers.reverse()       # reverse list
+
+
+6️⃣ tuple
+
+Stores multiple values
+
+Immutable (cannot be changed)
+
+colors = ("red", "green", "blue")
+
+numbers = [1, 2, 3, 4] This is a list variable given here Square Bracket [].
+If we need to change this in to tuple we need to change this in to Round Bracket (). 
+
+
+Tuple functions:
+
+colors.count("red")
+colors.index("green")
+
+
+(Tuples are faster and safer than lists.)
+
+
+7️⃣ set
+
+Stores unique values   -> Non Repetable values are unique values.
+
+Unordered collection
+
+nums = {1, 2, 3, 3}                  Set will only use curly Bracket {}.
+print(nums)  # duplicates removed
+
+
+Set functions:
+
+nums.add(4)
+nums.remove(2)
+nums.union({5, 6})
+nums.intersection({1, 4})
+
+8️⃣ dict (Dictionary)    -> This will be only use when it also have a key–value pairs.
+
+Stores data in key–value pairs.
+
+student = {
+    "name": "Rahul",
+    "age": 22,
+    "course": "Python"
+}
+
+
+Dictionary functions:
+
+student.keys()
+student.values()
+student.items()
+student.get("name")
+student.update({"age": 23})
+student.pop("course")
+
+
+ype Conversion (Type Casting)
+int("10")
+float("3.14")
+str(100)
+bool(1)
+
+
+(Used to convert one data type into another.)
+
+Input and Output
+name = input("Enter your name: ")
+print("Welcome", name)

@@ -1,0 +1,23 @@
+PYTHON LIST (ALL FUNCTIONS) )-> List = Ordered, Mutable, Allows Duplicates
+
+)-> lst = [10, 20, 30, 40]
+
+)-> ALL LIST FUNCTIONS (COMPLETE)
+
+Function	Use
+
+append()   )-> 	    Add element at end
+extend()   )-> 	    Add multiple elements
+insert()   )-> 	    Add at specific index
+remove()   )-> 	    Remove by value
+pop()	   )->      Remove by index / last
+clear()	   )->      Remove all elements
+index()	   )->      Get index of value
+count()	   )->      Count occurrences
+sort()	   )->      Sort list
+reverse()  )-> 	    Reverse list
+copy()	   )->      Copy list
+len()	   )->      Length
+max()	   )->      Maximum value
+min()	   )->      Minimum value
+sum()	   )->      Sum of elements
