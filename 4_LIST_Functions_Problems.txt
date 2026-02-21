@@ -1,0 +1,287 @@
+PYTHON LIST (ALL FUNCTIONS) )-> List = Ordered, Mutable, Allows Duplicates
+
+)-> lst = [10, 20, 30, 40]
+
+)-> ALL LIST FUNCTIONS (COMPLETE)
+
+Function	Use
+
+append()   )-> 	    Add element at end
+extend()   )-> 	    Add multiple elements
+insert()   )-> 	    Add at specific index
+remove()   )-> 	    Remove by value
+pop()	   )->      Remove by index / last
+clear()	   )->      Remove all elements
+index()	   )->      Get index of value ->
+count()	   )->      Count occurrences ->How much values are there in the list.
+sort()	   )->      Sort list
+reverse()  )-> 	    Reverse list
+copy()	   )->      Copy list
+len()	   )->      Length
+max()	   )->      Maximum value
+min()	   )->      Minimum value
+sum()	   )->      Sum of elements
+
+
+
+
+
+
+
+
+1️⃣ append()
+Problem 1
+
+Add 50 to the list.
+
+lst = [10, 20, 30, 40]
+
+
+lst.append(50)
+print(lst)
+
+
+Output:
+
+[10, 20, 30, 40, 50]
+
+Problem 2
+
+Add "Python" to subjects list.
+
+subjects = ["Math", "Science"]
+
+subjects.append("Python")
+print(subjects)
+
+
+Output:
+
+['Math', 'Science', 'Python']
+
+Problem 3
+
+Append a list as a single element.
+
+lst = [1, 2]
+lst.append([3, 4])
+print(lst)
+
+
+Output:[1, 2, [3, 4]]
+
+2️⃣ extend()
+Problem 1
+
+Add multiple numbers.
+
+lst = [1, 2]
+lst.extend([3, 4])
+print(lst)
+
+
+Output:[1, 2, 3, 4]
+
+Problem 2
+
+Extend with string.
+
+lst = [1, 2]
+lst.extend("AB")
+print(lst)
+
+
+Output:[1, 2, 'A', 'B']
+
+Problem 3
+
+Combine two lists.
+
+a = [10, 20]
+b = [30, 40]
+
+
+a.extend(b)
+print(a)
+
+
+Output:[10, 20, 30, 40]
+
+3️⃣ insert()
+Problem 1
+
+Insert 15 at index 1.
+
+lst = [10, 20, 30]
+
+lst.insert(1, 15)
+
+print(lst)
+
+
+Output:[10, 15, 20, 30]
+
+Problem 2
+
+Insert at beginning.
+
+lst = [2, 3]
+lst.insert(0, 1)
+print(lst)
+
+
+Output:[1, 2, 3]
+
+Problem 3
+
+Insert at large index.
+
+lst = [1, 2]
+lst.insert(10, 3)
+print(lst)
+
+
+Output:[1, 2, 3]
+
+4️⃣ remove()
+Problem 1
+
+Remove value 20.
+
+lst = [10, 20, 30]
+lst.remove(20)
+print(lst)
+
+
+Output:[10, 30]
+
+Problem 2
+
+Remove first occurrence.
+
+lst = [1, 2, 2, 3]
+lst.remove(2)
+print(lst)
+
+
+Output:[1, 2, 3]
+
+Problem 3
+
+Remove string.
+
+lst = ["a", "b", "c"]
+lst.remove("b")
+print(lst)
+
+
+Output:['a', 'c']
+
+5️⃣ pop()
+Problem 1
+
+Pop last element.
+
+lst = [10, 20, 30]
+lst.pop()
+print(lst)
+
+
+Output:[10, 20]
+
+Problem 2
+
+Pop index 1.
+
+lst = [10, 20, 30]
+lst.pop(1)
+print(lst)
+
+
+Output:
+
+[10, 30]
+
+Problem 3
+
+Store popped value.
+
+lst = [5, 6, 7]
+x = lst.pop()
+print(x)
+print(lst)
+
+
+Output:7
+[5, 6]
+
+6️⃣ clear()
+lst = [1, 2, 3]
+lst.clear()
+print(lst)
+
+
+Output:[]
+
+
+(Repeat 3 times practice — same behavior.)
+
+7️⃣ index()
+lst = [10, 20, 30]
+print(lst.index(20))
+
+
+Output:1
+
+8️⃣ count()
+lst = [1, 2, 2, 3]
+print(lst.count(2))
+
+
+Output:2
+
+9️⃣ sort()
+lst = [30, 10, 20]
+lst.sort()
+print(lst)
+
+
+Output:[10, 20, 30]
+
+🔟 reverse()
+lst = [1, 2, 3]
+lst.reverse()
+print(lst)
+
+
+Output:[3, 2, 1]
+
+1️⃣1️⃣ copy()
+a = [1, 2]
+b = a.copy()
+print(b)
+
+
+Output:[1, 2]
+
+1️⃣2️⃣ Built-in Functions
+len()
+print(len([1, 2, 3]))
+
+
+Output:3
+
+max()
+print(max([10, 50, 20]))
+Output:50
+
+min()
+print(min([10, 50, 20]))
+
+
+Output:10
+
+sum()
+print(sum([10, 20, 30]))
+
+Output:60
