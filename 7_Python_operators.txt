@@ -1,0 +1,69 @@
+# Operators in Python
+
+# Arithmetic Operators
+x = 23
+y = 44
+print(x + y)   # 67: Addition
+print(x - y)   # -21: Subtraction
+print(x * y)   # 1012: Multiplication
+print(x / y)   # 0.5227: Division
+print(x // y)  # 0: Floor Division (removes decimals)
+print(x % y)   # 23: Modulus (remainder)
+print(x ** 2)  # 529: Exponentiation (x raised to the power of 2)
+
+# Comparison Operators
+x = 10
+y = 5
+print(x == y)  # False: Equals
+print(x != y)  # True: Not equal
+print(x > y)   # True: Greater than
+print(x < y)   # False: Less than
+print(x >= y)  # True: Greater than or equal
+print(x <= y)  # False: Less than or equal
+
+# Logical Operators
+a = True
+b = False
+print(a and b) # False: AND operator
+print(a or b)  # True: OR operator
+print(not a)   # False: NOT operator
+
+# Assignment Operators
+z = 10
+z += 5         # z = z + 5
+print(z)       
+z -= 3         # z = z - 3
+print(z)       
+z *= 2         # z = z * 2
+print(z)       
+z /= 4         # z = z / 4
+print(z)       
+z %= 5         # z = z % 5
+print(z)       
+z //= 2        # z = z // 2
+print(z)       
+z **= 3        # z = z ** 3
+print(z)       
+
+# Bitwise Operators
+x = 5          # 0101 in binary
+y = 3          # 0011 in binary
+print(x & y)   # 1: AND (0101 & 0011 = 0001)
+print(x | y)   # 7: OR (0101 | 0011 = 0111)
+print(x ^ y)   # 6: XOR (0101 ^ 0011 = 0110)
+print(~x)      # -6: NOT (~0101 = 1010 in 2's complement)
+print(x << 1)  # 10: Left shift (0101 << 1 = 1010)
+print(x >> 1)  # 2: Right shift (0101 >> 1 = 0010)
+
+# Membership Operators
+lst = [1, 2, 3]
+print(2 in lst)    # True: 2 is in the list
+print(4 not in lst) # True: 4 is not in the list
+
+# Identity Operators
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+print(a is b)      # True: a and b refer to the same object
+print(a is c)      # False: a and c are different objects
+print(a is not c)  # True: a and c are not the same object 
