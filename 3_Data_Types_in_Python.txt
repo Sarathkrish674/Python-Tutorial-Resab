@@ -145,7 +145,7 @@ student.update({"age": 23})
 student.pop("course")
 
 
-ype Conversion (Type Casting)
+Type Conversion (Type Casting)
 int("10")
 float("3.14")
 str(100)
