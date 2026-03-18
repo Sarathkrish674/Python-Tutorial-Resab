@@ -51,7 +51,7 @@
 
 # print("a =",a)
 # print("b =",b)
-
+ 
 # a = int(input("Enter an integer: "))  # Prompt for an integer input
 # b = []  # Initialize an empty list
 

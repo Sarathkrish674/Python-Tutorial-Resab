@@ -154,6 +154,17 @@ print(b)
 
 # # Check divisibility by 7 and append to list a
 # for i in c:
-#     if i % 7 == 0:
+#     if i % 7 == 0:    
 #         a.append(i)
 # print(f"List a (divisible by 7): {a}")
+
+
+
+# numbers = [12, 25, 37, 49, 50, 63, 78, 91, 100, 105, 121, 140]
+# result =[]
+# for i in numbers:
+#     if i % 7 == 0:
+#        result.append(i)
+# print(f"The result is: {result}")
+# print(f"The Count is:", len(result))
+# print(f"The Count is:", sum(result))
