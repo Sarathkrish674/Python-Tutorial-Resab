@@ -54,6 +54,28 @@ result = add_numbers(5, 10)
 print(f"Sum:{result}")
 
 
+
+
+def a_square(a):
+    """
+    Function Name: add_numbers
+    Parameters:
+    a -> first number
+
+    return sends the result back to the caller
+    """
+    return a * a
+
+
+result = a_square(5)
+
+print(f"Sum:{result}")
+
+
+
+
+
+
 # -------------------------------------------------
 # 3. Check Even or Odd
 # -------------------------------------------------
